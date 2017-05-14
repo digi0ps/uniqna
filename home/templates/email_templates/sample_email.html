@@ -1,0 +1,13 @@
+{% extends "email_templates/base.html" %}
+{% block body %}
+<center>
+<div class="mdl-grid">
+<div class="mdl-cell mdl-cell--6-col box mdl-cell--3-offset">
+<h2 class="email-header"> {{ header }} </h2>
+<div class="email-content">
+{{ content }}
+</div>
+</div>
+</div>
+</center>
+{% endblock body %}
